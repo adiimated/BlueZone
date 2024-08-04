@@ -8,10 +8,10 @@ Despite high healthcare spending—averaging $13,493 per person and totaling $4.
 
 ## Goal
 This project aims to:
-- **Identify American counties with the highest number of centenarians** and investigate the contributing factors to such longevity.
-- **Examine the impact of healthcare variables, environmental conditions, lifestyle choices, socioeconomic status, and demography on life expectancy**.
-- **Explore disparities between rural and urban areas** in terms of healthcare and lifestyle factors.
-- **Evaluate variations in life expectancy** among U.S. counties to provide a nuanced understanding of the local healthcare systems.
+- Identify American counties with the highest number of centenarians** and investigate the contributing factors to such longevity.
+- Examine the impact of healthcare variables, environmental conditions, lifestyle choices, socioeconomic status, and demography on life expectancy**.
+- Explore disparities between rural and urban areas** in terms of healthcare and lifestyle factors.
+- Evaluate variations in life expectancy** among U.S. counties to provide a nuanced understanding of the local healthcare systems.
 
 ## Data Sources
 This project will leverage various data sources including public health records, census data, environmental reports, and local government databases.
