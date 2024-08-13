@@ -15,3 +15,25 @@ This project aims to:
 
 ## Data Sources
 This project will leverage various data sources including public health records, census data, environmental reports, and local government databases.
+
+## Task 1 - Literature Review
+
+**Objective:** Conduct a detailed literature review to identify the factors linked to longevity in the well-known global Blue Zones.
+
+### Key Findings
+The following table summarizes the key factors associated with the longevity observed in Blue Zones:
+
+| Factor Category          | Description                                                                                                  |
+|--------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Diet and Nutrition**   | Predominantly plant-based diets with minimal meat consumption, linked to reduced rates of chronic diseases.  |
+| **Physical Activity**    | Daily life integrates moderate physical activities like walking and gardening instead of structured exercises.|
+| **Social Engagement**    | Strong social connections and an active social life significantly impact mental health and longevity.         |
+| **Psychological Health** | Traits include high life satisfaction, a sense of purpose, and effective stress management techniques.       |
+| **Environmental Factors**| Supportive physical and social environments, including clean air and community-oriented living.               |
+| **Healthcare Access**    | Easy access to healthcare and preventive services, coupled with economic stability, supports overall health.  |
+
+#### Articles Used for the Literature Review
+All the articles used for the literature review can be found in the following GitHub folder:
+[Research Articles Folder](https://github.com/adiimated/The-Blue-Zone-Project/tree/main/literature%20review/Research%20Articles)
+
+
