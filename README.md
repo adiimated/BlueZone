@@ -32,7 +32,8 @@ The following table summarizes the key factors associated with the longevity obs
 | **Environmental Factors**| Supportive physical and social environments, including clean air and community-oriented living.               |
 | **Healthcare Access**    | Easy access to healthcare and preventive services, coupled with economic stability, supports overall health.  |
 
-**Articles Used for the Literature Review**
+**Articles Used for the Literature Review**:
+
 All the articles used for the literature review can be found in the following GitHub folder:
 [Research Articles Folder](https://github.com/adiimated/The-Blue-Zone-Project/tree/main/literature%20review/Research%20Articles)
 
