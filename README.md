@@ -35,4 +35,10 @@ The following table summarizes the key factors associated with the longevity obs
 All the articles used for the literature review can be found in the following GitHub folder:
 [Research Articles Folder](https://github.com/adiimated/The-Blue-Zone-Project/tree/main/literature%20review/Research%20Articles)
 
+## Task 2 - Data Collection
+
+Sources: 
+ * County Health Ranking and Roadmas: https://www.countyhealthrankings.org/
+ * Surveillance, Epidemiology, and End Results (SEER) Program: https://seer.cancer.gov/popdata/
+
 
