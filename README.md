@@ -48,7 +48,7 @@ Sources:
 
 The original dataset contained multiple demographic attributes including `Year`, `State Abbreviation`, `State FIPS Code`, `County FIPS Code`, `Sex`, `Age`, `Race`, and `Population`. These attributes allowed for a detailed examination of population distributions across different demographics and geographical locations.
 
-### Creation of Specific Datasets
+#### Creation of Specific Datasets
 We initially divided the large dataset into three smaller datasets focused on the attributes of interest:
 1. **Dataset by Sex:** Included attributes like `Sex` and `Population`.
 2. **Dataset by Age:** Focused on `Age` and `Population`.
@@ -61,7 +61,7 @@ For detailed analysis and to reduce complexity, we performed aggregation based o
 - **Age:** Population totals were aggregated by `Age`, following the same grouping strategy.
 The aggregated data was then saved into new CSV files for each grouped attribute, making it easier for further analysis or reporting.
 
-### Files Generated
+#### Files Generated
 - **Aggregated by Sex:** `aggregated_dataset_by_sex.csv`
 - **Aggregated by Age:** `aggregated_dataset_by_age.csv`
 These files provide a concise view of the population distribution either by sex or age across various locations and time frames.
