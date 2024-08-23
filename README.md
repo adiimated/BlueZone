@@ -40,5 +40,30 @@ All the articles used for the literature review can be found in the following Gi
 Sources: 
  * County Health Ranking and Roadmas: https://www.countyhealthrankings.org/
  * Surveillance, Epidemiology, and End Results (SEER) Program: https://seer.cancer.gov/popdata/
+ * Census Data: https://data.census.gov/
 
+## Task 3 - Data Preprocessing
+
+### Original Dataset
+
+The original dataset contained multiple demographic attributes including `Year`, `State Abbreviation`, `State FIPS Code`, `County FIPS Code`, `Sex`, `Age`, `Race`, and `Population`. These attributes allowed for a detailed examination of population distributions across different demographics and geographical locations.
+
+### Creation of Specific Datasets
+We initially divided the large dataset into three smaller datasets focused on the attributes of interest:
+1. **Dataset by Sex:** Included attributes like `Sex` and `Population`.
+2. **Dataset by Age:** Focused on `Age` and `Population`.
+3. **Dataset by Age with Additional Details:** Included `Age`, `Race`, and `Population`.
+
+Each of these datasets retained common attributes: `Year`, `State Abbreviation`, `State FIPS Code`, and `County FIPS Code`.
+
+For detailed analysis and to reduce complexity, we performed aggregation based on:
+- **Sex:** The population was aggregated by `Sex`, summing up individuals grouped by `Year`, `State Abbreviation`, `State FIPS Code`, `County FIPS Code`.
+- **Age:** Population totals were aggregated by `Age`, following the same grouping strategy.
+The aggregated data was then saved into new CSV files for each grouped attribute, making it easier for further analysis or reporting.
+
+### Files Generated
+- **Aggregated by Sex:** `aggregated_dataset_by_sex.csv`
+- **Aggregated by Age:** `aggregated_dataset_by_age.csv`
+These files provide a concise view of the population distribution either by sex or age across various locations and time frames.
+(here I am talking about the work I did)
 
