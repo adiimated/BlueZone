@@ -44,7 +44,7 @@ Sources:
 
 ## Task 3 - Data Preprocessing
 
-### Original Dataset
+#### Original Dataset
 
 The original dataset contained multiple demographic attributes including `Year`, `State Abbreviation`, `State FIPS Code`, `County FIPS Code`, `Sex`, `Age`, `Race`, and `Population`. These attributes allowed for a detailed examination of population distributions across different demographics and geographical locations.
 
