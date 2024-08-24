@@ -44,29 +44,18 @@ Sources:
 
 ## Task 3 - Data Preprocessing
 
+## Task 3 - Data Preprocessing Summary
+
 #### Original Dataset
+Our dataset encompassed detailed demographic attributes such as `Year`, `State`, `County`, `Sex`, `Age`, `Race`, and `Population`.
 
-The original dataset contained multiple demographic attributes including `Year`, `State Abbreviation`, `State FIPS Code`, `County FIPS Code`, `Sex`, `Age`, `Race`, and `Population`. These attributes allowed for a detailed examination of population distributions across different demographics and geographical locations.
+#### Dataset Segmentation
+We created two focused subsets for analysis:
+1. **By Sex:** Includes only `Sex` and `Population`.
+2. **By Age:** Concentrates on `Age` and `Population`.
 
-#### Creation of Specific Datasets
-We initially divided the large dataset into three smaller datasets focused on the attributes of interest:
-1. **Dataset by Sex:** Included attributes like `Sex` and `Population`.
-2. **Dataset by Age:** Focused on `Age` and `Population`.
-
-For detailed analysis and to reduce complexity, we performed aggregation based on:
-- **Sex:** The population was aggregated by `Sex`, summing up individuals grouped by `Year`, `State Abbreviation`, `State FIPS Code`, `County FIPS Code`.
-- **Age:** Population totals were aggregated by `Age`, following the same grouping strategy.
-The aggregated data was then saved into new CSV files for each grouped attribute, making it easier for further analysis or reporting.
-
-#### Create New Features
-- **Sex-based Features:**
-  - **File:** `demographic_data_sex.csv`
-  - New features include percentages of male and female populations within each geographic and temporal group.
-
-- **Age-based Features:**
-  - **File:** `demographic_data_age.csv`
-  - New features categorize the population into age groups and calculate their percentages within each group.
-
-
-(here I am talking about the work I did)
+#### Data Aggregation
+We aggregated and stored results in simplified CSV files for each category:
+- **Sex Data:** Stored in `demographic_data_sex.csv`, featuring percentage breakdowns by gender.
+- **Age Data:** Stored in `demographic_data_age.csv`, detailing population percentages by age group.
 
