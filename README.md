@@ -44,8 +44,6 @@ Sources:
 
 ## Task 3 - Data Preprocessing
 
-## Task 3 - Data Preprocessing Summary
-
 #### Original Dataset
 Our dataset encompassed detailed demographic attributes such as `Year`, `State`, `County`, `Sex`, `Age`, `Race`, and `Population`.
 
