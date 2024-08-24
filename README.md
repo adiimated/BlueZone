@@ -49,8 +49,8 @@ Our dataset encompassed detailed demographic attributes such as `Year`, `State`,
 
 #### Dataset Segmentation
 We created two focused subsets for analysis:
-1. **By Sex:** Includes only `Sex` and `Population`.
-2. **By Age:** Concentrates on `Age` and `Population`.
+1. **By Sex**
+2. **By Age** 
 
 #### Data Aggregation
 We aggregated and stored results in simplified CSV files for each category:
